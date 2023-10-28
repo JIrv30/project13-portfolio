@@ -4,6 +4,7 @@ import Particle from "./Particle";
 import MovieSearch from '../assets/projects/Movie_Search.png'
 import Quizzical from '../assets/projects/Quizzical.png'
 import VanLife from '../assets/projects/Van_Life.png'
+import ProLearnLog from '../assets/projects/Cursor_and_Learning_Log.png'
 
 
 function Projects() {
@@ -56,13 +57,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath=''
+              imgPath={ProLearnLog}
               isBlog={false}
               title="Profesional Learning Log"
               description="A diary app for teachers to record their CPD activities and authorised line managers to review"
               skills='Firebase, user Authentication, protected routes and React hooks'
               ghLink="https://github.com/JIrv30/Project8---LearningLog"
-              demoLink=""
+              demoLink="https://regal-bunny-b86b6e.netlify.app"
             />
           </Col>
 
