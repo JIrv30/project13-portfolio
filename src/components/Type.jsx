@@ -7,7 +7,7 @@ export default function Type () {
     options={{
       strings: [
         'Softeware Developer',
-        'React',
+        'React and Next.js',
         'Firestore & Firebase',
       ],
       autoStart: true,
