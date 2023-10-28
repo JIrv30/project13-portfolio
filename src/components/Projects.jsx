@@ -1,6 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectsCards";
 import Particle from "./Particle";
+import MovieSearch from '../assets/projects/Movie_Search.png'
+import Quizzical from '../assets/projects/Quizzical.png'
+import VanLife from '../assets/projects/Van_Life.png'
 
 
 function Projects() {
@@ -17,12 +20,37 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath=''
+              imgPath={VanLife}
               isBlog={false}
-              title="Project 1"
-              description="description"
-              ghLink=""
-              demoLink=""
+              title="Van Life"
+              description="An air BnB like site for people to rent and hire vans"
+              skills='React-Router, React-Router hooks, Firbase and Error handaling'
+              ghLink="https://github.com/JIrv30/project10-vanlife"
+              demoLink="https://vanlife-voluble-daifuku-e6b941.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MovieSearch}
+              isBlog={false}
+              title="Movie Search"
+              description="An App to find information about your favorite movie."
+              skills='API call and async functions, useState, useEffect, props, .map() and .filter()'
+              ghLink="https://github.com/JIrv30/project12-movie-search"
+              demoLink="https://movie-search-89767.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Quizzical}
+              isBlog={false}
+              title="Quizzical"
+              description="A quiz app to test your general knowledge"
+              skills='API calls, use State, useEffect,props, .map()'
+              ghLink="https://github.com/JIrv30/quizzical"
+              demoLink="https://quizzical-papaya-capybara-f45792.netlify.app/"              
             />
           </Col>
 
@@ -30,31 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath=''
               isBlog={false}
-              title="Project 2"
-              description="description 2."
-              ghLink=""
-              demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath=''
-              isBlog={false}
-              title="Project 3"
-              description="description 3"
-              ghLink=""
-              demoLink=""              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath=''
-              isBlog={false}
-              title="Project 4"
-              description="description 5"
-              ghLink=""
+              title="Profesional Learning Log"
+              description="A diary app for teachers to record their CPD activities and authorised line managers to review"
+              skills='Firebase, user Authentication, protected routes and React hooks'
+              ghLink="https://github.com/JIrv30/Project8---LearningLog"
               demoLink=""
             />
           </Col>
