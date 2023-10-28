@@ -5,6 +5,7 @@ import MovieSearch from '../assets/projects/Movie_Search.png'
 import Quizzical from '../assets/projects/Quizzical.png'
 import VanLife from '../assets/projects/Van_Life.png'
 import ProLearnLog from '../assets/projects/Cursor_and_Learning_Log.png'
+import OsandXs from '../assets/projects/O_s_and_X_s.png'
 
 
 function Projects() {
@@ -69,12 +70,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath=''
+              imgPath={OsandXs}
               isBlog={false}
-              title="project 5"
-              description="Description 5."
-              ghLink=""
-              demoLink="" 
+              title="O's and X's"
+              description="Classic game of O's and X's"
+              ghLink="https://github.com/JIrv30/project14-tic-tac-toe"
+              demoLink="https://clinquant-toffee-03c1fb.netlify.app/" 
             />
           </Col>
 
