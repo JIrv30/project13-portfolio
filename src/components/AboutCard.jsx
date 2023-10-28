@@ -10,7 +10,7 @@ export default function AboutCard() {
             from <span className="purple"> Southampton, England.</span>
             <br /> I have been a teacher for 20 years and I'm looking for a career change.
             <br />
-            I am currently employed as a Deputy Headteacher at a large secondary school in Gosport where I have been using my softeware develppment skills to enhance students education
+            I am currently employed as a Deputy Headteacher at a large secondary school in Gosport where I have been using my software development skills to enhance students education
             <br />
             <br />
           </p>
