@@ -25,7 +25,7 @@ function Projects() {
               imgPath={VanLife}
               isBlog={false}
               title="Van Life"
-              description="An air BnB like site for people to rent and hire vans"
+              description="An Air BnB like site for people to rent and hire vans"
               skill1='React-Router'
               skill2='React-Router hooks'
               skill3='Firebase'

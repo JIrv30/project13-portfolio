@@ -5,7 +5,7 @@ export default function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "left" }}>
             Hi Everyone, I am <span className="purple">James Irving </span>
             from <span className="purple"> Southampton, England.</span>
             <br /> I have been a teacher for 20 years and I'm looking for a career change.

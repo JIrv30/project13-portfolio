@@ -59,9 +59,6 @@ export default function Home () {
         <Row>
               <Col md={12}  className="home-about-social">
                 <h1>FIND ME ON</h1>
-                <p>
-                Feel free to <span className="purple">connect </span>with me
-                </p>
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                   <a
@@ -86,6 +83,11 @@ export default function Home () {
                 </li>
                 
               </ul>
+
+              <p>
+                Feel free to <span className="purple">connect </span>with me
+                </p>
+
             </Col>
         </Row>
 
@@ -97,12 +99,19 @@ export default function Home () {
               <p className='home-about-body'>
               I fell in love with programming and I have used my skills to enhance students education
               <br />
-              <br /> I am fluent in: 
-              <i>
-                <b className='purple'>
-                  HTML, CSS, Javascript and React
-                </b>
-              </i>
+              <br /> I am fluent in:
+              <ul>
+                <li className='purple'>
+                HTML
+                </li>
+               
+                <li className='purple'>
+                Javascript
+                </li>
+                <li className='purple'>
+                React
+                </li>
+              </ul>
               <br />
               <br />
               My field of interests are building new
